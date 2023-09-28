@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,700;1,200&family=Noto+Sans+Mono:wght@500&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.first img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+nav a:hover{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.first:hover{
+    cursor: pointer;
+}
+
+.emblema{
+    width: 25vw;
+    border: none;
+    border-radius: 5px; 
+}
+.inicio{
+    padding: 10px;
+    margin: 10px auto;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    border: none;
+    border-radius: 5px;
+    width: 90vw;
+    background-color:silver;
+}
+.pre{
+    text-align: center;
+    margin: 10px;
+}
+.btn{
+    margin: 10px 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+.btn:hover{
+    color: white;
+    cursor: pointer;
+    transform: translateX(5px) translateY(-5px);
+    box-shadow: -5px 5px 10px 0px brown;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 30px 10px;
+    background-color: brown;
+    color: white;
+    width: 90vw;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.cuadros{
+    padding: 10px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around ;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.cuadros h3{
+    text-align: center;
+}
+.tenshi{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.hero{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.overlord{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.academi{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.hero img, .tenshi img{
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.overlord img, .academi img{
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.seccion1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 30px 10px;
+    background-color: brown;
+    color: white;
+    width: 90vw;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.cuadros1{
+    padding: 10px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around ;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.cuadros1 h3{
+    text-align: center;
+}
+.levelin{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.tbate{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.sss{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.final{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 40vw;
+    text-align: justify;
+}
+.levelin img, .tbate img{
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.sss img, .final img{
+    width: 40vw;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.reser{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: brown;
+    padding: 5rem 0;
+    margin-top: auto;
+}
+
+@media(max-width:650px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px;
+    }
+    .seccion{
+        flex-direction: column;
+        margin: 10px auto;
+        width: 80vw;
+    }
+    .inicio{
+        flex-direction: column;
+        margin: 10px auto;
+        width: 80vw;
+    }
+    .pre{
+        text-align: center;
+        margin: 10px;
+    }
+    .cuadros{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tenshi, .hero{
+        width: 80vw;
+    }
+    .overlord, .academi{
+        width: 80vw;
+    }
+    .hero img, .tenshi img{
+        width: 80vw;
+    }
+    .overlord img, .academi img{
+        width: 80vw;
+    }
+    .seccion1{
+        flex-direction: column;
+        margin: 10px auto;
+        width: 80vw;
+    }
+    .cuadros1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .levelin, .tbate{
+        width: 80vw;
+    }
+    .levelin img, .tbate img{
+        width: 80vw;
+    }
+    .sss, .final{
+        width: 80vw;
+    }
+    .sss img, .final img{
+        width: 80vw;
+    }
+}
